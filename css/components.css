@@ -1,0 +1,19 @@
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;margin-bottom:16px}
+table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);font-size:14px}
+th{color:var(--mute);font-weight:600}.wrap{overflow-x:auto}
+button.b,.b{background:var(--acc);color:#fff;border:0;border-radius:6px;padding:8px 14px;font:inherit;cursor:pointer}
+.b.alt{background:none;color:var(--ink);border:1px solid var(--line)}.b.red{background:var(--bad)}.b.sm{padding:3px 9px;font-size:13px}
+.b:focus-visible,input:focus-visible,select:focus-visible,aside button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+input,select{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--ink);width:100%}
+label{display:block;font-size:13px;color:var(--mute);margin-bottom:10px}
+.bar{display:flex;gap:10px;margin-bottom:14px;align-items:center;flex-wrap:wrap}.bar input,.bar select{max-width:260px}.sp{flex:1}
+.tag{padding:2px 8px;border-radius:10px;font-size:12px;color:#fff}.in{background:var(--ok)}.low{background:var(--warn)}.out{background:var(--bad)}
+.ok{color:var(--ok)}.bad{color:var(--bad)}.mute{color:var(--mute)}
+.pgrid{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));max-height:60vh;overflow:auto}
+.pitem{border:1px solid var(--line);border-radius:8px;padding:10px;cursor:pointer;background:var(--card);text-align:left;color:var(--ink);font:inherit}
+.pitem:hover{border-color:var(--acc)}.pitem:disabled{opacity:.45;cursor:not-allowed}
+.pos{display:grid;gap:16px;grid-template-columns:1.5fr 1fr}
+dialog{border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);padding:20px;width:min(460px,92vw)}
+dialog::backdrop{background:#0008}
+#toast{position:fixed;bottom:20px;right:20px;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:6px;display:none;z-index:99}
+.receipt{font-family:ui-monospace,Consolas,monospace;font-size:13px}.receipt td,.receipt th{border:0;padding:2px 4px}
